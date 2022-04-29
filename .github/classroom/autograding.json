@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test Case 1",
+      "setup": "g++ -o HelloWorld test.c",
+      "run": "./HelloWorld",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
